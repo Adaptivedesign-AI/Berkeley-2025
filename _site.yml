@@ -1,5 +1,5 @@
-
 name: "Experimental Designs in the Era of Artificial Intelligence"
+output_dir: "."
 navbar:
   title: "2025 Experimental Designs Workshop"
   left:
