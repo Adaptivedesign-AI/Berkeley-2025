@@ -6,7 +6,7 @@ title: "Experimental Designs in the Era of Artificial Intelligence"
 
 We are excited to invite you to the **2025 Experimental Designs in the Era of Artificial Intelligence Workshop**, which will take place on **March 7-8, 2025**, at the **Berkeley Alumni House**, UC Berkeley.
 
-This workshop will bring together leading experts in the field to discuss innovative experimental design techniques and their applications in artificial intelligence. The workshop is organized by top researchers from UC Berkeley/
+This workshop will bring together leading experts in the field to discuss innovative experimental design techniques and their applications in artificial intelligence. The workshop is organized by top researchers from UC Berkeley.
 
 ![Berkeley Image](berkeley_photo_1.png)  <!-- Placeholder for the image -->
 
@@ -14,12 +14,35 @@ This workshop will bring together leading experts in the field to discuss innova
 - **Dates**: March 7-8, 2025
 - **Location**: Berkeley Alumni House, UC Berkeley
 
-[Learn more about the speakers](speakers.html).
+### Speakers
+We are honored to feature the following distinguished speakers for this workshop:
+
+- Sofia S. Villar, *University of Cambridge*
+- Boxin Tang, *Simon Fraser University*
+- Yuan Ji, *University of Chicago*
+- Lu Tian, *Stanford University*
+- Feifang Hu, *George Washington University*
+- Annie Qu, *University of California, Irvine*
+- William Rosenberger, *George Mason University*
+- Yuan Ying, *MD Anderson Cancer Center*
+- Luke Keele, *University of Pennsylvania*
+- Michael Kosorok, *University of North Carolina at Chapel Hill*
+- Bin Yu, *University of California, Berkeley*
+- Hongyu Zhao, *Yale University*
+- Mark van der Laan, *University of California, Berkeley*
+- Tianxi Cai, *Harvard University*
+- Hongtu Zhu, *University of North Carolina at Chapel Hill*
+
+
+### Organization Committee
+
+#### Chair
+
+- **Jingshen Wang**, UC Berkeley
+
+
+---
 
 [Register here](registration.html) and make your **[payment](#)** to secure your spot!
 
 ---
-
-### Organization Committee
-
-The organization committee is led by **Jingshen Wang**, Assistant Professor of Biostatistics at UC Berkeley. 

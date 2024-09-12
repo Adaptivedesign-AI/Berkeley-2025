@@ -5,10 +5,6 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Speakers"
-      href: speakers.html
-    - text: "Organization Committee"
-      href: committee.html
     - text: "Schedule"
       href: schedule.html
     - text: "Location & Travel"
