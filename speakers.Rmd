@@ -5,7 +5,7 @@ title: "Speakers"
 
 # Senior Speakers
 
-We are honored to feature the following senior speakers for this workshop:
+We are honored to feature the following distinguished speakers for this workshop:
 
 Here’s the refined list with the full names of the universities and the schools italicized:
 
@@ -25,6 +25,5 @@ Here’s the refined list with the full names of the universities and the school
 - Tianxi Cai, *Harvard University*
 - Hongtu Zhu, *University of North Carolina at Chapel Hill*
 
-The school names are now italicized, and the full names of the institutions have been included. Let me know if you'd like further refinements!
 
 ![Berkeley Image](berkeley_photo_2.png)  <!-- Placeholder for the image -->
