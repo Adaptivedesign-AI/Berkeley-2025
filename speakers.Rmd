@@ -6,8 +6,6 @@ title: ""
 
 We are honored to feature the following distinguished speakers for this workshop:
 
-Here’s the refined list with the full names of the universities and the schools italicized:
-
 - Sofia S. Villar, *University of Cambridge*
 - Boxin Tang, *Simon Fraser University*
 - Yuan Ji, *University of Chicago*
