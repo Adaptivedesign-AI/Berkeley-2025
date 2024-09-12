@@ -2,7 +2,6 @@
 title: "Workshop Schedule"
 ---
 
-# Workshop Schedule
 
 ### Day 1: March 7, 2025
 

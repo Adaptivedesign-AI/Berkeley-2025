@@ -3,7 +3,6 @@
 title: "Registration"
 ---
 
-# Registration for the 2025 Workshop
 
 To register for the 2025 Experimental Designs in the Era of Artificial Intelligence workshop, please complete the registration form and submit your payment.
 

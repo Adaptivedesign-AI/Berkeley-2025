@@ -1,9 +1,8 @@
-
 ---
-title: "Speakers"
+title: ""
 ---
 
-# Senior Speakers
+### Speakers
 
 We are honored to feature the following distinguished speakers for this workshop:
 

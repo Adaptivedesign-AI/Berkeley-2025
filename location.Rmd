@@ -1,8 +1,8 @@
 ---
-title: "Location & Accommodation"
+title: ""
 ---
 
-# Workshop Location
+## Workshop Location
 
 The workshop will be held at the **Berkeley Alumni House**, located on the University of California, Berkeley campus.    
 
@@ -13,7 +13,7 @@ Berkeley, CA 94720, USA
 
 ---
 
-# Accommodation
+## Accommodation
 
 There are several accommodation options near the Berkeley Alumni House. We recommend booking early due to limited availability:
 

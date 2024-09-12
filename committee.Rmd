@@ -3,9 +3,6 @@
 title: "Organization Committee"
 ---
 
-# Workshop Organization Committee
-
-
 ## Chair
 
 - **Jingshen Wang**, UC Berkeley
