@@ -14,7 +14,7 @@ title: "Workshop Schedule"
 | 10:30 AM  | Coffee Break                                                            |                         |
 | 11:00 AM  | **Session 1**: Reinforcement Learning and Causal Inference              | Annie Qu, Feifang Hu     |
 | 12:30 PM  | Lunch                                                                   |                         |
-| 1:30 PM   | **Session 2**: Frequentist Adaptive Designs in Clinical Trials          | William Rosenberger, Michael Rosenblum |
+| 1:30 PM   | **Session 2**: Frequentist Adaptive Designs in Clinical Trials          | William Rosenberger|
 | 3:00 PM   | Coffee Break                                                            |                         |
 | 3:30 PM   | **Session 3**: Machine Learning Applications in Experimental Designs    | Bin Yu, Michael Kosorok  |
 | 5:00 PM   | Panel Discussion: Future Directions in AI for Experimental Design       | All Speakers            |
