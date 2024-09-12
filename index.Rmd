@@ -1,0 +1,25 @@
+
+---
+title: "Experimental Designs in the Era of Artificial Intelligence"
+---
+
+
+We are excited to invite you to the **2025 Experimental Designs in the Era of Artificial Intelligence Workshop**, which will take place on **March 7-8, 2025**, at the **Berkeley Alumni House**, UC Berkeley.
+
+This workshop will bring together leading experts in the field to discuss innovative experimental design techniques and their applications in artificial intelligence. The workshop is organized by top researchers from UC Berkeley and other renowned institutions.
+
+![Berkeley Image](berkeley_photo_1.png)  <!-- Placeholder for the image -->
+
+### Key Information:
+- **Dates**: March 7-8, 2025
+- **Location**: Berkeley Alumni House, UC Berkeley
+
+[Learn more about the speakers](speakers.html).
+
+[Register here](registration.html) and make your **[payment](#)** to secure your spot!
+
+---
+
+### Organization Committee
+
+The organization committee is led by **Jingshen Wang**, Assistant Professor of Biostatistics at UC Berkeley. 

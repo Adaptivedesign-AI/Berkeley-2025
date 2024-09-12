@@ -1,0 +1,29 @@
+
+---
+title: "Speakers"
+---
+
+# Senior Speakers
+
+We are honored to feature the following senior speakers for this workshop:
+
+- Sofia S. Villar, Cambridge
+- Boxin Tang, SFU
+- Yuan Ji, UChicago
+- Lu Tian, Stanford
+- Michael Rosenblum, JHU
+- Feifang Hu, George Washington University
+- Annie Qu, UC Irvine
+- William Rosenberger, George Mason University
+- Yuan Ying, MD Anderson
+- Luke Keele, UPenn
+- Dylan Small, UPenn
+- Michael Kosorok, UNC
+- Kelley M. Kidwell, Umich
+- Bin Yu, Berkeley
+- Hongyu Zhao, Yale
+- Mark van der Laan, Berkeley
+- Tianxi Cai, Harvard
+- Hongtu Zhu
+
+![Berkeley Image](berkeley_photo_2.png)  <!-- Placeholder for the image -->
