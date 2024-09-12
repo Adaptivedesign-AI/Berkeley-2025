@@ -3,14 +3,8 @@
 title: "Organization Committee"
 ---
 
-## Chair
-
 - **Jingshen Wang**, UC Berkeley
-- **XXX**, XXX University
-
-
-## Members
-
+- **Waverly Wei**, University of Southern California
 - **YYY**, YYY University
 - **ZZZ**, ZZZ University
 
