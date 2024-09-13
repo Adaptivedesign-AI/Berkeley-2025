@@ -1,39 +1,39 @@
 ---
 title: "Workshop Schedule"
 ---
-
+The workshop spans two days, with each day following a structured program
 
 ### Day 1: March 7, 2025
 
-| Time      | Session                                                                 | Speaker(s)              |
-|-----------|-------------------------------------------------------------------------|-------------------------|
-| 8:00 AM   | Registration & Breakfast                                                |                         |
-| 9:00 AM   | Welcome and Opening Remarks                                             | Jingshen Wang            |
-| 9:30 AM   | **Keynote 1**: Bayesian Adaptive Designs in AI                          | Yuan Ji, Lu Tian         |
-| 10:30 AM  | Coffee Break                                                            |                         |
-| 11:00 AM  | **Session 1**: Reinforcement Learning and Causal Inference              | Annie Qu, Feifang Hu     |
-| 12:30 PM  | Lunch                                                                   |                         |
-| 1:30 PM   | **Session 2**: Frequentist Adaptive Designs in Clinical Trials          | William Rosenberger|
-| 3:00 PM   | Coffee Break                                                            |                         |
-| 3:30 PM   | **Session 3**: Machine Learning Applications in Experimental Designs    | Bin Yu, Michael Kosorok  |
-| 5:00 PM   | Panel Discussion: Future Directions in AI for Experimental Design       | All Speakers            |
-| 6:30 PM   | Banquet Dinner                                                          |                         |
+| Time      | Session                                                                 | Speaker(s) |
+|-----------|-------------------------------------------------------------------------|------------|
+| 8:00 AM   | Registration & Breakfast                                                |            |
+| 9:00 AM   | Welcome and Opening Remarks                                             |            |
+| 9:20 AM   | Two research talks with discussant                                      |            |
+| 10:30 AM  | Coffee Break                                                            |            |
+| 10:50 AM  | Two research talks with discussant                                      |            |
+| 12:00 PM  | Lunch at Women’s Faculty Club                                           |            |
+| 1:30 PM   | Two research talks with discussant                                      |            |
+| 2:40 PM   | Coffee Break                                                            |            |
+| 3:00 PM   | Panel Discussion                                                        |            |
+| 3:40 PM   | Two research talks with discussant                                      |            |
+| 5:00 PM   | Poster Session                                                          |            |
+| 6:00 PM   | Banquet Dinner                                                          |            |
 
 ---
 
 ### Day 2: March 8, 2025
 
-| Time      | Session                                                                 | Speaker(s)              |
-|-----------|-------------------------------------------------------------------------|-------------------------|
-| 8:00 AM   | Breakfast                                                               |                         |
-| 9:00 AM   | **Keynote 2**: Dynamic Treatment Regimes and SMART Designs              | Kelley M. Kidwell, Dylan Small |
-| 10:30 AM  | Coffee Break                                                            |                         |
-| 11:00 AM  | **Session 4**: Bayesian Methods for Clinical Trials                     | Yuan Ying, Hongyu Zhao   |
-| 12:30 PM  | Lunch                                                                   |                         |
-| 1:30 PM   | **Session 5**: Causal Inference with AI in Biomedical Research          | Mark van der Laan, Tianxi Cai |
-| 3:00 PM   | Coffee Break                                                            |                         |
-| 3:30 PM   | **Session 6**: AI in Randomized Controlled Trials: Challenges & Solutions| Luke Keele, Boxin Tang   |
-| 5:00 PM   | Closing Remarks                                                         | Jingshen Wang            |
+| Time      | Session                                                                 | Speaker(s) |
+|-----------|-------------------------------------------------------------------------|------------|
+| 8:00 AM   | Breakfast                                                               |            |
+| 9:00 AM   | Two research talks with discussant                                      |            |
+| 10:10 AM  | Coffee Break                                                            |            |
+| 10:30 AM  | Two research talks with discussant                                      |            |
+| 11:40 AM  | Networking Event                                                        |            |
+| 12:00 PM  | Lunch at Women’s Faculty Club                                           |            |
+| 1:30 PM   | Two research talks with discussant                                      |            |
+| 3:00 PM   | Poster Awards and Closing Remarks                                       |            |
 
 ---
 
