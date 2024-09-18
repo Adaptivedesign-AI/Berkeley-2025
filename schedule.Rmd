@@ -1,7 +1,7 @@
 ---
 title: "Workshop Schedule"
 ---
-The workshop spans two days, with each day following a structured program
+The workshop will take place over two days, March 7 (Friday) and March 8 (Saturday), 2025, with each day featuring a structured agenda:
 
 ### Day 1: March 7, 2025
 
@@ -9,14 +9,14 @@ The workshop spans two days, with each day following a structured program
 |-----------|-------------------------------------------------------------------------|------------|
 | 8:00 AM   | Registration & Breakfast                                                |            |
 | 9:00 AM   | Welcome and Opening Remarks                                             |            |
-| 9:20 AM   | Two research talks with discussant                                      |            |
+| 9:20 AM   | Research talks with discussant                                      |            |
 | 10:30 AM  | Coffee Break                                                            |            |
-| 10:50 AM  | Two research talks with discussant                                      |            |
+| 10:50 AM  | Research talks with discussant                                      |            |
 | 12:00 PM  | Lunch at Women’s Faculty Club                                           |            |
-| 1:30 PM   | Two research talks with discussant                                      |            |
+| 1:30 PM   | Research talks with discussant                                      |            |
 | 2:40 PM   | Coffee Break                                                            |            |
 | 3:00 PM   | Panel Discussion                                                        |            |
-| 3:40 PM   | Two research talks with discussant                                      |            |
+| 3:40 PM   | Research talks with discussant                                      |            |
 | 5:00 PM   | Poster Session                                                          |            |
 | 6:00 PM   | Banquet Dinner                                                          |            |
 
@@ -27,14 +27,14 @@ The workshop spans two days, with each day following a structured program
 | Time      | Session                                                                 | Speaker(s) |
 |-----------|-------------------------------------------------------------------------|------------|
 | 8:00 AM   | Breakfast                                                               |            |
-| 9:00 AM   | Two research talks with discussant                                      |            |
+| 9:00 AM   | Research talks with discussant                                      |            |
 | 10:10 AM  | Coffee Break                                                            |            |
-| 10:30 AM  | Two research talks with discussant                                      |            |
+| 10:30 AM  | Research talks with discussant                                      |            |
 | 11:40 AM  | Networking Event                                                        |            |
 | 12:00 PM  | Lunch at Women’s Faculty Club                                           |            |
-| 1:30 PM   | Two research talks with discussant                                      |            |
+| 1:30 PM   | Research talks with discussant                                      |            |
 | 3:00 PM   | Poster Awards and Closing Remarks                                       |            |
 
 ---
 
-We look forward to seeing you there!
+We look forward to seeing you at Berkeley!
