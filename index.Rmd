@@ -15,7 +15,7 @@ This workshop will gather experts to explore recent advancements in experimental
 - **Location**: Berkeley Alumni House, UC Berkeley
 
 ### Speakers
-We are honored to feature the following speakers for this workshop:
+We are honored to feature the following speakers for this workshop, listed in alphabetical order:
 
 - Tianxi Cai, *Harvard University*
 - Feifang Hu, *George Washington University*
@@ -29,7 +29,7 @@ We are honored to feature the following speakers for this workshop:
 - Dylan Small, *University of Pennsylvania*
 - Lu Tian, *Stanford University*
 - Boxin Tang, *Simon Fraser University*
-- Lorenzo Rrippa, *Harvard University*
+- Lorenzo Trippa, *Harvard University*
 - Sofia S. Villar, *University of Cambridge*
 - Alexander Volfovsky, *Duke University*
 - Bin Yu, *University of California, Berkeley*
@@ -50,6 +50,6 @@ We are honored to feature the following speakers for this workshop:
 
 ---
 
-[Register here](registration.html) and make your **[payment](#)** to secure your spot!
+[Register here](registration.html) and make your **[payment](#)** to secure your spot! Please note as an invited speakers, you do not need to register. 
 
 ---
