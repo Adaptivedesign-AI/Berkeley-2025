@@ -50,6 +50,6 @@ We are honored to feature the following speakers for this workshop, listed in al
 
 ---
 
-[Register here](registration.html) to secure your spot! Please note as an invited speakers, you do not need to register. 
+[Register here](registration.html) to secure your spot! Please note as an invited speakers, you **do not** need to register. 
 
 ---
