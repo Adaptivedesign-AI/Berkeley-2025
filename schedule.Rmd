@@ -9,14 +9,14 @@ The workshop will take place over two days, March 7 (Friday) and March 8 (Saturd
 |-----------|-------------------------------------------------------------------------|------------|
 | 8:00 AM   | Registration & Breakfast                                                |            |
 | 9:00 AM   | Welcome and Opening Remarks                                             |            |
-| 9:20 AM   | Research talks with discussant                                      |            |
-| 10:30 AM  | Coffee Break                                                            |            |
-| 10:50 AM  | Research talks with discussant                                      |            |
+| 9:10 AM   | Research talks with discussant                                      |            |
+| 10:40 AM  | Coffee Break                                                            |            |
+| 11:00 AM  | Research talks with discussant                                      |            |
 | 12:00 PM  | Lunch at Women’s Faculty Club                                           |            |
 | 1:30 PM   | Research talks with discussant                                      |            |
-| 2:40 PM   | Coffee Break                                                            |            |
-| 3:00 PM   | Panel Discussion                                                        |            |
-| 3:40 PM   | Research talks with discussant                                      |            |
+| 3:00 PM   | Coffee Break                                                            |            |
+| 3:15 PM   | Panel Discussion                                                        |            |
+| 4:00 PM   | Research talks with discussant                                      |            |
 | 5:00 PM   | Poster Session                                                          |            |
 | 6:00 PM   | Banquet Dinner                                                          |            |
 
@@ -28,9 +28,8 @@ The workshop will take place over two days, March 7 (Friday) and March 8 (Saturd
 |-----------|-------------------------------------------------------------------------|------------|
 | 8:00 AM   | Breakfast                                                               |            |
 | 9:00 AM   | Research talks with discussant                                      |            |
-| 10:10 AM  | Coffee Break                                                            |            |
-| 10:30 AM  | Research talks with discussant                                      |            |
-| 11:40 AM  | Networking Event                                                        |            |
+| 10:30 AM  | Coffee Break                                                            |            |
+| 10:50 AM  | Research talks with discussant                                      |            |
 | 12:00 PM  | Lunch at Women’s Faculty Club                                           |            |
 | 1:30 PM   | Research talks with discussant                                      |            |
 | 3:00 PM   | Poster Awards and Closing Remarks                                       |            |
