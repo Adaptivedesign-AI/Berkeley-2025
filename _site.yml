@@ -11,10 +11,6 @@ navbar:
       href: location.html
     - text: "Registration"
       href: registration.html
-  right:
-    - text: "Contact"
-      icon: fa-envelope fa-lg
-      href: contact.html
 
 output:
   html_document:
