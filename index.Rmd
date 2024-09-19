@@ -29,6 +29,7 @@ We are honored to feature the following speakers for this workshop, listed in al
 - Lorenzo Trippa, *Harvard University*
 - Sofia S. Villar, *University of Cambridge*
 - Alexander Volfovsky, *Duke University*
+- Waverly Wei, *University of Southern California *
 - Bin Yu, *University of California, Berkeley*
 - Yuan Ying, *MD Anderson Cancer Center*
 - Hongtu Zhu, *University of North Carolina at Chapel Hill*
@@ -38,7 +39,6 @@ We are honored to feature the following speakers for this workshop, listed in al
 ### Organization Committee
 
 - **Jingshen Wang**, UC Berkeley
-- **Waverly Wei**, University of Southern California 
 - **Junzhe Shao**, UC Berkeley (student committee)
 - **Rita Qiuran Lyu**, UC Berkeley (student committee)
 - **Zhongming Xie**, UC Berkeley (student committee)
