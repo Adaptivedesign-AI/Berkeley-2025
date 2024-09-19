@@ -11,6 +11,8 @@ Berkeley Alumni House
 1 Alumni House  
 Berkeley, CA 94720, USA
 
+<img src="Alumni_house.jpg" alt="Berkeley Image" width="500px" />  <!-- Adjust the width as needed -->
+
 ---
 
 ## Accommodation
