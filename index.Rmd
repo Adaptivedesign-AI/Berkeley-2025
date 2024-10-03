@@ -19,6 +19,7 @@ We are honored to feature the following speakers for this workshop, listed in al
 
 - Tianxi Cai, *Harvard University*
 - Feifang Hu, *George Washington University*
+- Anastasia Ivanova, *University of North Carolina at Chapel Hill* 
 - Yuan Ji, *University of Chicago*
 - Luke Keele, *University of Pennsylvania*
 - Michael Kosorok, *University of North Carolina at Chapel Hill*
