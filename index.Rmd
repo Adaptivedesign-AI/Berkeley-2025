@@ -40,7 +40,6 @@ We are honored to feature the following speakers for this workshop, listed in al
 ### Organization Committee
 
 - **Jingshen Wang**, UC Berkeley
-- **Zeyu Zheng**, UC Berkeley
 - **Junzhe Shao**, UC Berkeley (student committee)
 - **Rita Qiuran Lyu**, UC Berkeley (student committee)
 - **Zhongming Xie**, UC Berkeley (student committee)
