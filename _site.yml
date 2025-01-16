@@ -11,6 +11,8 @@ navbar:
       href: location.html
     - text: "Registration"
       href: registration.html
+    - text: "Sponsors"
+      href: sponsors.html
 
 output:
   html_document:
