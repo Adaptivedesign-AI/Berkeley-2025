@@ -37,13 +37,13 @@ We are honored to feature the following speakers for this workshop, listed in al
 - Hongtu Zhu, *University of North Carolina at Chapel Hill*
 
 
-### Organizing Committee
+### Organizing Members
 
 - **Jingshen Wang**, UC Berkeley
-- **Junzhe Shao**, UC Berkeley (student committee)
-- **Rita Qiuran Lyu**, UC Berkeley (student committee)
-- **Lei Shi**, UC Berkeley (student committee)
-- **Xinrui Ruan**, UC Berkeley (student committee)
+- **Junzhe Shao**, UC Berkeley (student member)
+- **Rita Qiuran Lyu**, UC Berkeley (student member)
+- **Lei Shi**, UC Berkeley (student member)
+- **Xinrui Ruan**, UC Berkeley (student member)
 
 
 
