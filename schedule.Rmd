@@ -116,8 +116,9 @@ output:
     </button>
 <div class="day-section" id="day1">
 
-<div class="time-block">
-**8:15 AM**  
+<div class="time-block meal-break">
+**8:15 AM** 
+<div class="session-title">Breakfast</div>
 Coffee, pastry, and fruits will be served
 </div>
 
