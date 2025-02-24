@@ -126,7 +126,7 @@ Breakfast: Coffee, pastry, and fruits will be served
 **8:30 - 8:40 AM**  
 <div class="session-title">Opening Remarks</div>
 <div class="presentation-item">
-<strong>Jingshen Wang</strong>, UC Berkeley
+<strong> TBD
 </div>
 </div>
 
