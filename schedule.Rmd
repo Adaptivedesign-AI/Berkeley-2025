@@ -119,7 +119,7 @@ output:
 <div class="time-block meal-break">
 **8:15 AM**
 
-<strong>Breakfast: </strong>Coffee, pastry, and fruits will be served
+Breakfast: Coffee, pastry, and fruits will be served
 </div>
 
 <div class="time-block">
