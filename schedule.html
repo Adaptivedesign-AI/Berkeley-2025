@@ -11,9 +11,9 @@
 
 
 
-<title>Workshop Schedule (tentative)</title>
+<title>Workshop Schedule</title>
 
-<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -166,8 +166,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -175,9 +175,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -257,150 +264,327 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Workshop Schedule (tentative)</h1>
+<h1 class="title toc-ignore">Workshop Schedule</h1>
 
 </div>
 
 
-<p>The workshop will take place over two days, March 7 (Friday) and
-March 8 (Saturday), 2025, with each day featuring a structured
-agenda:</p>
-<div id="day-1-march-7-2025" class="section level3">
-<h3>Day 1: March 7, 2025</h3>
-<table>
-<colgroup>
-<col width="11%" />
-<col width="76%" />
-<col width="12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Time</th>
-<th>Session</th>
-<th>Speaker(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>8:00 AM</td>
-<td>Registration &amp; Breakfast</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>9:00 AM</td>
-<td>Welcome and Opening Remarks</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>9:10 AM</td>
-<td>Research talks with discussant</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>10:40 AM</td>
-<td>Coffee Break</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>11:00 AM</td>
-<td>Research talks with discussant</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>12:00 PM</td>
-<td>Lunch at Women’s Faculty Club</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1:30 PM</td>
-<td>Research talks with discussant</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>3:00 PM</td>
-<td>Coffee Break</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3:15 PM</td>
-<td>Panel Discussion</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>4:00 PM</td>
-<td>Research talks with discussant</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>5:00 PM</td>
-<td>Poster Session</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>6:00 PM</td>
-<td>Banquet Dinner</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<hr />
+<style>
+.schedule-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.day-section {
+  background: #f8f9fc;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px 0;
+  display: none;
+}
+
+.time-block {
+  border-left: 3px solid #2c3e50;
+  padding: 12px 20px;
+  margin: 15px 0;
+  background: white;
+}
+
+.session-title {
+  color: #2c3e50;
+  font-weight: 600;
+  margin: 15px 0 10px;
+  font-size: 1.1em;
+}
+
+.presentation-item {
+  margin: 12px 0;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.chair-info {
+  color: #7b8a8b;
+  font-size: 0.9em;
+  margin: -8px 0 12px;
+  font-style: italic;
+}
+
+.special-event {
+  background: #f8f9fc;
+  border-left-color: #18bc9c;
+}
+
+.meal-break {
+  border-left-color: #18bc9c;
+  background: #f3faf9;
+}
+
+.alert-custom {
+  background: #f8f9fc;
+  border: 1px solid #dee2e6;
+  color: #7b8a8b;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.collapse-button {
+  background: #2c3e50;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+  width: 100%;
+  text-align: left;
+}
+
+.collapse-button:hover {
+  background: #18bc9c;
+}
+
+}
+</style>
+<script>
+    function toggleDay(dayId) {
+      var content = document.getElementById(dayId);
+      // Use computed style for accuracy
+      var isHidden = window.getComputedStyle(content).display === "none";
+      var button = document.querySelector(`button[onclick="toggleDay('${dayId}')"]`);
+      
+      if (isHidden) {
+        content.style.display = "block";
+        button.innerHTML = button.innerHTML.replace('▼', '▲');
+      } else {
+        content.style.display = "none";
+        button.innerHTML = button.innerHTML.replace('▲', '▼');
+      }
+    }
+</script>
+<div class="schedule-container">
+<div class="alert-custom">
+<p><i class="fas fa-info-circle"></i> This schedule is subject to
+change. Please check back for updates.</p>
 </div>
-<div id="day-2-march-8-2025" class="section level3">
-<h3>Day 2: March 8, 2025</h3>
-<table>
-<colgroup>
-<col width="11%" />
-<col width="76%" />
-<col width="12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Time</th>
-<th>Session</th>
-<th>Speaker(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>8:00 AM</td>
-<td>Breakfast</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>9:00 AM</td>
-<td>Research talks with discussant</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>10:30 AM</td>
-<td>Coffee Break</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>10:50 AM</td>
-<td>Research talks with discussant</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>12:00 PM</td>
-<td>Lunch at Women’s Faculty Club</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1:30 PM</td>
-<td>Research talks with discussant</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3:00 PM</td>
-<td>Poster Awards and Closing Remarks</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p>We look forward to seeing you at Berkeley!</p>
+<button class="collapse-button" onclick="toggleDay(&#39;day1&#39;)">
+March 7th, Friday ▼
+</button>
+<div id="day1" class="day-section">
+<div class="time-block">
+<p><strong>8:15 AM</strong><br />
+Coffee, pastry, and fruits will be served</p>
 </div>
+<div class="time-block">
+<strong>8:30 - 8:40 AM</strong><br />
+
+<div class="session-title">
+Opening Remarks
+</div>
+<div class="presentation-item">
+<p><strong>Jingshen Wang</strong>, UC Berkeley</p>
+</div>
+</div>
+<div class="time-block">
+<strong>8:40 - 10:10 AM</strong><br />
+
+<div class="session-title">
+Session I
+</div>
+<div class="chair-info">
+Chair: Hongjian Zhu, AbbVie
+</div>
+<div class="presentation-item">
+<p><strong>Sofia Villar</strong>, University of Cambridge<br> <em>Recent
+Advances for the Design, Analysis, and Implementation of
+Response-Adaptive Designs: Are We There Yet?</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Feifang Hu</strong>, George Washington University<br>
+<em>Adaptive Designs and GenAI: A Great Match?</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Boxin Tang</strong>, Simon Fraser University<br>
+<em>Fractional Factorial Designs Under the Baseline
+Parametrization</em></p>
+</div>
+</div>
+<div class="time-block">
+<strong>10:30 - 11:30 AM</strong><br />
+
+<div class="session-title">
+Session II
+</div>
+<div class="chair-info">
+Chair: Xinwei Ma, UC San Diego
+</div>
+<div class="presentation-item">
+<p><strong>Bin Yu</strong>, UC Berkeley<br> <em>Veridical Data Science
+Towards Modern Experimental Design in the Age of AI</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Luke Keele</strong>, University of Pennsylvania<br>
+<em>Flexibly Estimating and Interpreting Heterogeneous Treatment Effects
+of Laparoscopic Surgery for Cholecystitis Patients</em></p>
+</div>
+</div>
+<div class="time-block meal-break">
+<p><strong>11:30 - 1:00 PM</strong><br />
+Lunch and Photo Session, Alumni House</p>
+</div>
+<div class="time-block">
+<strong>1:00 - 2:00 PM</strong><br />
+
+<div class="session-title">
+Session III
+</div>
+<div class="chair-info">
+Chair: Lexin Li, UC Berkeley
+</div>
+<div class="presentation-item">
+<p><strong>Micheal Kosorok</strong>, University of North Carolina at
+Chapel Hill<br> <em>Design and Analysis of SMARTs to Incorporate Patient
+Preference into Dynamic Treatment Regimes</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Annie Qu</strong>, University of California Irvine<br>
+<em>Stage-Aware Learning for Dynamic Treatments</em></p>
+</div>
+</div>
+<div class="time-block">
+<strong>2:20 - 3:10 PM</strong><br />
+
+<div class="session-title">
+Panel Discussion
+</div>
+<div class="chair-info">
+Moderator: Waverly Wei, University of Southern California
+</div>
+</div>
+<div class="time-block">
+<strong>3:30 - 4:30 PM</strong><br />
+
+<div class="session-title">
+Session IV
+</div>
+<div class="chair-info">
+Chair: Sofia Villar, Cambridge University
+</div>
+<div class="presentation-item">
+<p><strong>Mark van der Laan</strong>, UC Berkeley<br> <em>Learning
+Oracle Designs with Targeted Adaptive Designs and Statistical Inference
+with TMLE</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Anastasia Ivanova</strong>, University of North Carolina at
+Chapel Hill<br> <em>Applications of AI in Drug Development</em></p>
+</div>
+</div>
+<div class="time-block">
+<p><strong>4:30 - 5:30 PM</strong><br />
+<strong>Poster Session</strong></p>
+</div>
+<div class="time-block special-event">
+<p><strong>5:30 - 7:30 PM</strong><br />
+Dinner Banquet, Great China</p>
+</div>
+</div>
+<p><!-- End Friday section --></p>
+<button class="collapse-button" onclick="toggleDay(&#39;day2&#39;)">
+March 8th, Saturday ▼
+</button>
+<div id="day2" class="day-section">
+<div class="time-block">
+<strong>8:40 - 10:10 AM</strong><br />
+
+<div class="session-title">
+Session V
+</div>
+<div class="chair-info">
+Chair: Xiudi Li, UC Berkeley
+</div>
+<div class="presentation-item">
+<p><strong>Hongyu Zhao</strong>, Yale University<br> <em>Causal
+Inference Through Mendelian Randomization</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Tianxi Cai</strong>, Harvard University<br> <em>Improving
+Algorithm Generalizability and Transportability: Lesson Learned from
+Multi-institutional EHR Research</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Hongtu Zhu</strong>, University of North Carolina at Chapel
+Hill<br> <em>Spatially Randomized Designs Can Enhance Policy
+Evaluation</em></p>
+</div>
+</div>
+<div class="time-block">
+<strong>10:30 - 12:00 PM</strong><br />
+
+<div class="session-title">
+Session VI
+</div>
+<div class="chair-info">
+Chair: Feifang Hu, George Washington University
+</div>
+<div class="presentation-item">
+<p><strong>Yuan Ji</strong>, University of Chicago<br> <em>A Bayesian
+Estimator of Sample Size</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Ying Yuan</strong>, University of Texas MD Anderson Cancer
+Center<br> <em>Digital Controls: An Efficient, Robust, and
+Privacy-Preserving Bayesian Tool for Adaptive Information Borrowing from
+External Data</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Lorenzo Trippa</strong>, Harvard University<br>
+<em>Harmonized Estimation of Subgroup-Specific Treatment Effects in
+Randomized Trials: The Use of External Control Data</em></p>
+</div>
+</div>
+<div class="time-block meal-break">
+<p><strong>12:00 - 1:30 PM</strong><br />
+Lunch, Alumni House</p>
+</div>
+<div class="time-block">
+<strong>1:30 - 3:00 PM</strong><br />
+
+<div class="session-title">
+Session VII
+</div>
+<div class="chair-info">
+Chair: Peng Ding, UC Berkeley
+</div>
+<div class="presentation-item">
+<p><strong>Lu Tian</strong>, Stanford University<br> <em>Dynamic
+Decision Making With Individualized Variable Selection</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Alexander Volfovsky</strong>, Duke University<br> <em>New
+Experimental Designs with Generative AI — from Texts to Networks, to
+Interacting Agents</em></p>
+</div>
+<div class="presentation-item">
+<p><strong>Waverly Wei</strong>, University of Southern California<br>
+<em>Covariate Adjusted Response Adaptive Design with Delayed
+Outcomes</em></p>
+</div>
+</div>
+<div class="time-block">
+<strong>3:00 PM</strong><br />
+
+<div class="session-title">
+Closing Remarks and Poster Award
+</div>
+</div>
+</div>
+<p><!-- End Saturday section --></p>
+</div>
+<p><!-- End schedule container --></p>
 
 
 
