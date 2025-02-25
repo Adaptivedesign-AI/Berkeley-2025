@@ -5,299 +5,212 @@ output:
     theme: cosmo
 ---
 
-<style>
-.schedule-container {
-  max-width: 800px;
-  margin: 0 auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.day-section {
-  background: #f8f9fc;
-  border: 1px solid #dee2e6;
-  border-radius: 4px;
-  padding: 20px;
-  margin: 20px 0;
-  display: none;
-}
-
-.time-block {
-  border-left: 3px solid #2c3e50;
-  padding: 12px 20px;
-  margin: 15px 0;
-  background: white;
-}
-
-.session-title {
-  color: #2c3e50;
-  font-weight: 600;
-  margin: 15px 0 10px;
-  font-size: 1.1em;
-}
-
-.presentation-item {
-  margin: 12px 0;
-  padding: 8px 0;
-  border-bottom: 1px solid #eee;
-}
-
-.chair-info {
-  color: #7b8a8b;
-  font-size: 0.9em;
-  margin: -8px 0 12px;
-  font-style: italic;
-}
-
-.special-event {
-  background: #f8f9fc;
-  border-left-color: #18bc9c;
-}
-
-.meal-break {
-  border-left-color: #18bc9c;
-  background: #f3faf9;
-}
-
-.alert-custom {
-  background: #f8f9fc;
-  border: 1px solid #dee2e6;
-  color: #7b8a8b;
-  border-radius: 4px;
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
-.collapse-button {
-  background: #2c3e50;
-  color: white;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 10px 0;
+```{css, echo=FALSE}
+.program-table {
   width: 100%;
-  text-align: left;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  margin: 20px 0;
 }
 
-.collapse-button:hover {
-  background: #18bc9c;
+.time-column {
+  width: 15%;
+  vertical-align: top;
+  padding: 10px;
+  font-weight: bold;
+  color: #2c3e50;
 }
 
+.session-block {
+  background-color: #2c3e50;  /* Gray for sessions */
+  color: white;
+  padding: 15px;
+  margin: 5px 0;
+  border-radius: 5px;
 }
-</style>
 
-<script>
-    function toggleDay(dayId) {
-      var content = document.getElementById(dayId);
-      // Use computed style for accuracy
-      var isHidden = window.getComputedStyle(content).display === "none";
-      var button = document.querySelector(`button[onclick="toggleDay('${dayId}')"]`);
-      
-      if (isHidden) {
-        content.style.display = "block";
-        button.innerHTML = button.innerHTML.replace('▼', '▲');
-      } else {
-        content.style.display = "none";
-        button.innerHTML = button.innerHTML.replace('▲', '▼');
-      }
-    }
-</script>
+.meal-block {
+  background-color: #3498db;  /* Blue for meals */
+  color: white;
+  padding: 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
 
+.date-header {
+  background-color: #2c3e50;  /* Dark blue for dates */
+  color: white;
+  padding: 12px;
+  font-size: 1.4em;
+  font-weight: bold;
+  border-radius: 5px;
+}
 
-<div class="schedule-container">
+.speaker-list {
+  margin: 10px 0 0 20px;
+}
 
+.speaker-list li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+```
 
-<div class="alert-custom">
-<i class="fas fa-info-circle"></i> This schedule is subject to change. Please check back for updates.
+<table class="program-table">
+
+<tr><td colspan="2" class="date-header">March 7th, Friday</td></tr>
+
+<tr>
+<td class="time-column">8:15 AM</td>
+<td><div class="meal-block">Coffee, pastry, and fruits will be served</div></td>
+</tr>
+
+<tr>
+<td class="time-column">8:30 - 8:40 AM</td>
+<td>
+<div class="session-block">
+<strong>Opening Remarks:</strong> Jingshen Wang, UC Berkeley
 </div>
+</td>
+</tr>
 
-<button class="collapse-button" onclick="toggleDay('day1')">
-      March 7th, Friday ▼
-    </button>
-<div class="day-section" id="day1">
-
-<div class="time-block meal-break">
-**8:15 AM**
-
-Breakfast: Coffee, pastry, and fruits will be served
+<tr>
+<td class="time-column">8:40 - 10:10 AM</td>
+<td>
+<div class="session-block">
+<strong>Session I - Chair: Hongjian Zhu, AbbVie</strong>
+<ul class="speaker-list">
+<li>Sofia Villar, University of Cambridge<br><em>Recent Advances for the Design, Analysis, and Implementation of Response-Adaptive Designs: Are We There Yet?</em></li>
+<li>Feifang Hu, George Washington University<br><em>Adaptive Designs and GenAI: A Great Match?</em></li>
+<li>Boxin Tang, Simon Fraser University<br><em>Fractional Factorial Designs Under the Baseline Parametrization</em></li>
+</ul>
 </div>
+</td>
+</tr>
 
-<div class="time-block">
-**8:30 - 8:40 AM**  
-<div class="session-title">Opening Remarks</div>
-<div class="presentation-item">
-<strong> TBD
+<tr>
+<td class="time-column">10:30 - 11:30 AM</td>
+<td>
+<div class="session-block">
+<strong>Session II - Chair: Xinwei Ma, UC San Diego</strong>
+<ul class="speaker-list">
+<li>Bin Yu, UC Berkeley<br><em>Veridical Data Science Towards Modern Experimental Design in the Age of AI</em></li>
+<li>Luke Keele, University of Pennsylvania<br><em>Flexibly Estimating and Interpreting Heterogeneous Treatment Effects of Laparoscopic Surgery for Cholecystitis Patients</em></li>
+</ul>
 </div>
-</div>
+</td>
+</tr>
 
-<div class="time-block">
-**8:40 - 10:10 AM**  
-<div class="session-title">Session I</div>
-<div class="chair-info">Chair: Hongjian Zhu, AbbVie</div>
+<tr>
+<td class="time-column">11:30 - 1:00 PM</td>
+<td><div class="meal-block">Lunch and Photo Session, Alumni House</div></td>
+</tr>
 
-<div class="presentation-item">
-<strong>Sofia Villar</strong>, University of Cambridge<br>
-<em>Recent Advances for the Design, Analysis, and Implementation of Response-Adaptive Designs: Are We There Yet?</em>
+<tr>
+<td class="time-column">1:00 - 2:00 PM</td>
+<td>
+<div class="session-block">
+<strong>Session III - Chair: Lexin Li, UC Berkeley</strong>
+<ul class="speaker-list">
+<li>Micheal Kosorok, University of North Carolina at Chapel Hill<br><em>Design and Analysis of SMARTs to Incorporate Patient Preference into Dynamic Treatment Regimes</em></li>
+<li>Annie Qu, University of California Irvine<br><em>Stage-Aware Learning for Dynamic Treatments</em></li>
+</ul>
 </div>
+</td>
+</tr>
 
-<div class="presentation-item">
-<strong>Feifang Hu</strong>, George Washington University<br>
-<em>Adaptive Designs and GenAI: A Great Match?</em>
+<tr>
+<td class="time-column">2:20 - 3:10 PM</td>
+<td>
+<div class="session-block">
+<strong>Panel Discussion - Moderator: Waverly Wei, University of Southern California</strong>
 </div>
+</td>
+</tr>
 
-<div class="presentation-item">
-<strong>Boxin Tang</strong>, Simon Fraser University<br>
-<em>Fractional Factorial Designs Under the Baseline Parametrization</em>
+<tr>
+<td class="time-column">3:30 - 4:30 PM</td>
+<td>
+<div class="session-block">
+<strong>Session IV - Chair: Sofia Villar, Cambridge University</strong>
+<ul class="speaker-list">
+<li>Mark van der Laan, UC Berkeley<br><em>Learning Oracle Designs with Targeted Adaptive Designs and Statistical Inference with TMLE</em></li>
+<li>Anastasia Ivanova, University of North Carolina at Chapel Hill<br><em>Applications of AI in Drug Development</em></li>
+</ul>
 </div>
-</div>
+</td>
+</tr>
 
-<div class="time-block">
-**10:30 - 11:30 AM**  
-<div class="session-title">Session II</div>
-<div class="chair-info">Chair: Xinwei Ma, UC San Diego</div>
-
-<div class="presentation-item">
-<strong>Bin Yu</strong>, UC Berkeley<br>
-<em>Veridical Data Science Towards Modern Experimental Design in the Age of AI</em>
-</div>
-
-<div class="presentation-item">
-<strong>Luke Keele</strong>, University of Pennsylvania<br>
-<em>Flexibly Estimating and Interpreting Heterogeneous Treatment Effects of Laparoscopic Surgery for Cholecystitis Patients</em>
-</div>
-</div>
-
-<div class="time-block meal-break">
-**11:30 - 1:00 PM**  
-Lunch and Photo Session, Alumni House
-</div>
-
-<div class="time-block">
-**1:00 - 2:00 PM**  
-<div class="session-title">Session III</div>
-<div class="chair-info">Chair: Lexin Li, UC Berkeley</div>
-
-<div class="presentation-item">
-<strong>Micheal Kosorok</strong>, University of North Carolina at Chapel Hill<br>
-<em>Design and Analysis of SMARTs to Incorporate Patient Preference into Dynamic Treatment Regimes</em>
-</div>
-
-<div class="presentation-item">
-<strong>Annie Qu</strong>, University of California Irvine<br>
-<em>Stage-Aware Learning for Dynamic Treatments</em>
-</div>
-</div>
-
-<div class="time-block">
-**2:20 - 3:10 PM**  
-<div class="session-title">Panel Discussion</div>
-<div class="chair-info">Moderator: Waverly Wei, University of Southern California</div>
-</div>
-
-<div class="time-block">
-**3:30 - 4:30 PM**  
-<div class="session-title">Session IV</div>
-<div class="chair-info">Chair: Sofia Villar, Cambridge University</div>
-
-<div class="presentation-item">
-<strong>Mark van der Laan</strong>, UC Berkeley<br>
-<em>Learning Oracle Designs with Targeted Adaptive Designs and Statistical Inference with TMLE</em>
-</div>
-
-<div class="presentation-item">
-<strong>Anastasia Ivanova</strong>, University of North Carolina at Chapel Hill<br>
-<em>Applications of AI in Drug Development</em>
-</div>
-</div>
-
-<div class="time-block">
-**4:30 - 5:30 PM**  
+<tr>
+<td class="time-column">4:30 - 5:30 PM</td>
+<td>
+<div class="session-block">
 <strong>Poster Session</strong>
 </div>
+</td>
+</tr>
 
-<div class="time-block meal-break">
-**5:30 - 7:30 PM**  
-Dinner Banquet, Great China
+<tr>
+<td class="time-column">5:30 - 7:30 PM</td>
+<td><div class="meal-block">Dinner Banquet, Great China</div></td>
+</tr>
+
+<tr><td colspan="2" class="date-header">March 8th, Saturday</td></tr>
+
+<tr>
+<td class="time-column">8:40 - 10:10 AM</td>
+<td>
+<div class="session-block">
+<strong>Session V - Chair: Xiudi Li, UC Berkeley</strong>
+<ul class="speaker-list">
+<li>Hongyu Zhao, Yale University<br><em>Causal Inference Through Mendelian Randomization</em></li>
+<li>Tianxi Cai, Harvard University<br><em>Improving Algorithm Generalizability and Transportability: Lesson Learned from Multi-institutional EHR Research</em></li>
+<li>Hongtu Zhu, University of North Carolina at Chapel Hill<br><em>Spatially Randomized Designs Can Enhance Policy Evaluation</em></li>
+</ul>
 </div>
+</td>
+</tr>
 
-</div> <!-- End Friday section -->
-
-<button class="collapse-button" onclick="toggleDay('day2')">March 8th, Saturday ▼</button>
-<div class="day-section" id="day2">
-
-<div class="time-block">
-**8:40 - 10:10 AM**  
-<div class="session-title">Session V</div>
-<div class="chair-info">Chair: Xiudi Li, UC Berkeley</div>
-
-<div class="presentation-item">
-<strong>Hongyu Zhao</strong>, Yale University<br>
-<em>Causal Inference Through Mendelian Randomization</em>
+<tr>
+<td class="time-column">10:30 - 12:00 PM</td>
+<td>
+<div class="session-block">
+<strong>Session VI - Chair: Feifang Hu, George Washington University</strong>
+<ul class="speaker-list">
+<li>Yuan Ji, University of Chicago<br><em>A Bayesian Estimator of Sample Size</em></li>
+<li>Ying Yuan, University of Texas MD Anderson Cancer Center<br><em>Digital Controls: An Efficient, Robust, and Privacy-Preserving Bayesian Tool for Adaptive Information Borrowing from External Data</em></li>
+<li>Lorenzo Trippa, Harvard University<br><em>Harmonized Estimation of Subgroup-Specific Treatment Effects in Randomized Trials: The Use of External Control Data</em></li>
+</ul>
 </div>
+</td>
+</tr>
 
-<div class="presentation-item">
-<strong>Tianxi Cai</strong>, Harvard University<br>
-<em>Improving Algorithm Generalizability and Transportability: Lesson Learned from Multi-institutional EHR Research</em>
+<tr>
+<td class="time-column">12:00 - 1:30 PM</td>
+<td><div class="meal-block">Lunch, Alumni House</div></td>
+</tr>
+
+<tr>
+<td class="time-column">1:30 - 3:00 PM</td>
+<td>
+<div class="session-block">
+<strong>Session VII - Chair: Peng Ding, UC Berkeley</strong>
+<ul class="speaker-list">
+<li>Lu Tian, Stanford University<br><em>Dynamic Decision Making With Individualized Variable Selection</em></li>
+<li>Alexander Volfovsky, Duke University<br><em>New Experimental Designs with Generative AI — from Texts to Networks, to Interacting Agents</em></li>
+<li>Waverly Wei, University of Southern California<br><em>Covariate Adjusted Response Adaptive Design with Delayed Outcomes</em></li>
+</ul>
 </div>
+</td>
+</tr>
 
-<div class="presentation-item">
-<strong>Hongtu Zhu</strong>, University of North Carolina at Chapel Hill<br>
-<em>Spatially Randomized Designs Can Enhance Policy Evaluation</em>
+<tr>
+<td class="time-column">3:00 PM</td>
+<td>
+<div class="session-block">
+<strong>Closing Remarks and Poster Award</strong>
 </div>
-</div>
+</td>
+</tr>
 
-<div class="time-block">
-**10:30 - 12:00 PM**  
-<div class="session-title">Session VI</div>
-<div class="chair-info">Chair: Feifang Hu, George Washington University</div>
-
-<div class="presentation-item">
-<strong>Yuan Ji</strong>, University of Chicago<br>
-<em>A Bayesian Estimator of Sample Size</em>
-</div>
-
-<div class="presentation-item">
-<strong>Ying Yuan</strong>, University of Texas MD Anderson Cancer Center<br>
-<em>Digital Controls: An Efficient, Robust, and Privacy-Preserving Bayesian Tool for Adaptive Information Borrowing from External Data</em>
-</div>
-
-<div class="presentation-item">
-<strong>Lorenzo Trippa</strong>, Harvard University<br>
-<em>Harmonized Estimation of Subgroup-Specific Treatment Effects in Randomized Trials: The Use of External Control Data</em>
-</div>
-</div>
-
-<div class="time-block meal-break">
-**12:00 - 1:30 PM**  
-Lunch, Alumni House
-</div>
-
-<div class="time-block">
-**1:30 - 3:00 PM**  
-<div class="session-title">Session VII</div>
-<div class="chair-info">Chair: Peng Ding, UC Berkeley</div>
-
-<div class="presentation-item">
-<strong>Lu Tian</strong>, Stanford University<br>
-<em>Dynamic Decision Making With Individualized Variable Selection</em>
-</div>
-
-<div class="presentation-item">
-<strong>Alexander Volfovsky</strong>, Duke University<br>
-<em>New Experimental Designs with Generative AI — from Texts to Networks, to Interacting Agents</em>
-</div>
-
-<div class="presentation-item">
-<strong>Waverly Wei</strong>, University of Southern California<br>
-<em>Covariate Adjusted Response Adaptive Design with Delayed Outcomes</em>
-</div>
-</div>
-
-<div class="time-block">
-**3:00 PM**  
-<div class="session-title">Closing Remarks and Poster Award</div>
-</div>
-
-</div> <!-- End Saturday section -->
-
-</div> <!-- End schedule container -->
+</table>
