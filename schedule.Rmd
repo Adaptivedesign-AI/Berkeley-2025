@@ -1,5 +1,5 @@
 ---
-title: "Workshop Schedule"
+title: "Workshop Schedule (subject to changes)"
 output: 
   html_document:
     theme: cosmo
