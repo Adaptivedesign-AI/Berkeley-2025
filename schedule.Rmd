@@ -69,7 +69,7 @@ output:
 <td class="time-column">8:30 - 8:40 AM</td>
 <td>
 <div class="session-block">
-<strong>Opening Remarks:</strong> Jingshen Wang, UC Berkeley
+<strong>TBD</strong>
 </div>
 </td>
 </tr>
