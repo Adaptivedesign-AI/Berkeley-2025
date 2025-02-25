@@ -59,7 +59,9 @@ output:
 <table class="program-table">
 
 <tr><td colspan="2" class="date-header">March 7th, Friday</td></tr>
-
+<tr>
+  <td colspan="2" style="height: 30px;"></td>
+</tr>
 <tr>
 <td class="time-column">8:15 AM</td>
 <td><div class="meal-block">Coffee, pastry, and fruits will be served</div></td>
@@ -153,7 +155,15 @@ output:
 <td><div class="meal-block">Dinner Banquet, Great China</div></td>
 </tr>
 
+<tr>
+  <td colspan="2" style="height: 30px;"></td>
+</tr>
+
 <tr><td colspan="2" class="date-header">March 8th, Saturday</td></tr>
+
+<tr>
+  <td colspan="2" style="height: 30px;"></td>
+</tr>
 
 <tr>
 <td class="time-column">8:40 - 10:10 AM</td>
