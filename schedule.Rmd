@@ -38,7 +38,7 @@ output:
 }
 
 .date-header {
-  background-color: #a2b7cc;  
+  background-color: #FFFFFF;  
   color: black;
   padding: 11px;
   font-size: 1.2em;
@@ -60,7 +60,7 @@ output:
 
 <tr><td colspan="2" class="date-header">March 7th, Friday</td></tr>
 <tr>
-  <td colspan="2" style="height: 30px;"></td>
+  <td colspan="2" style="height: 1px;"></td>
 </tr>
 <tr>
 <td class="time-column">8:15 AM</td>
@@ -162,7 +162,7 @@ output:
 <tr><td colspan="2" class="date-header">March 8th, Saturday</td></tr>
 
 <tr>
-  <td colspan="2" style="height: 30px;"></td>
+  <td colspan="2" style="height: 1px;"></td>
 </tr>
 <tr>
 <td class="time-column">8:15 AM</td>
